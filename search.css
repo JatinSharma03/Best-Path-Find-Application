@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    /* background-color: rgb(200, 5, 5); */
+}
+.gameBox{
+    box-shadow: 0 0 30px white;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+.gameBoxSmall{
+    box-shadow: 0 0 30px white;
+    margin-top: 5px;
+    margin-bottom: 1vh;
+}
+.boxContainer{
+    height: 8vh;
+}
+.box{
+    border: 1px solid white;
+    background-color:  black;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.nonclickBox{
+    border: 1px solid white;
+    background-color:  black;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.nonclickInvalidBox{
+    border: 1px solid transparent;
+    background-color:  white;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.box:hover{
+    border: 1px solid black;
+}
